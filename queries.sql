@@ -42,7 +42,7 @@
 -- FROM patients
 -- JOIN appointments ON appointments.patient_id = patients.id
 -- JOIN doctors ON doctors.id = appointments.doctor_id
-WHERE doctors.first_name = 'Sarah' AND doctors.last_name = 'Amour';
+-- WHERE doctors.first_name = 'Sarah' AND doctors.last_name = 'Amour';
 
 -- INSERT INTO doctors (first_name, last_name, specialty)
 -- VALUES ('Gregory', 'House', 'Generalist; DROP TABLE doctors;');
